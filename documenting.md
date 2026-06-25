@@ -15,3 +15,9 @@ My plan for now is to compress all the keys into a 11 x 10 matrix, so I have 6 p
 I also checked if the switch counting was correct, by duplicating a key, and the number the switch got was 105 instead of 108, that ment that I had deleted the 105 key, so that there weren't 107 keys, but 106 keys.
 
 Now I can delete all the keys and make a matrix from 11 x 10, with 106 keys.
+
+
+Now I've added the keys, I selected everything, and looked at the selected count to make sure I had placed the correct ammount of keys. It was 212 items, divided by 2 = 106, so it was right and I could move on to wiring.
+
+
+<img width="948" height="822" alt="image" src="https://github.com/user-attachments/assets/d2d80195-994a-4219-81e7-35be3b3d0f49" />
