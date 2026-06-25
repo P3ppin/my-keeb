@@ -12,3 +12,6 @@ I compressed the matrix a little, so  I spared 1 column. With all the keys it wo
 
 My plan for now is to compress all the keys into a 11 x 10 matrix, so I have 6 pins left. I now made the schematic look like the key layout, but that doesnt really matter, so I will just make a rectangle. I'm also curious how the programming will work, do I have to bind every key individually, or how does that work? But that's a question for later.
 
+I also checked if the switch counting was correct, by duplicating a key, and the number the switch got was 105 instead of 108, that ment that I had deleted the 105 key, so that there weren't 107 keys, but 106 keys.
+
+Now I can delete all the keys and make a matrix from 11 x 10, with 106 keys.
