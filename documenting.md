@@ -5,3 +5,10 @@ I want to make a 100% or 1800 keyboard. I think the 1800 is perfect, because i d
 **Designing the PCB**
 <img width="1287" height="379" alt="image" src="https://github.com/user-attachments/assets/b085e6a4-f837-4e37-a53a-9d455a6f5426" />
 I started laying out the keys, where I wanted them to be. I used some reference keyboards to do this, so I was sure I didn't miss any important keys.
+
+
+<img width="1508" height="415" alt="image" src="https://github.com/user-attachments/assets/7960cb06-ff00-4a30-b6d0-933c228d9451" />
+I compressed the matrix a little, so  I spared 1 column. With all the keys it would fit (19 x 6 matrix), so 25 pins, but then I only had 1 pin left. I also want to include a rotary encoder, but I need atleast 2 pins for that, maybe even 3 for the clicking function.
+
+My plan for now is to compress all the keys into a 11 x 10 matrix, so I have 6 pins left. I now made the schematic look like the key layout, but that doesnt really matter, so I will just make a rectangle. I'm also curious how the programming will work, do I have to bind every key individually, or how does that work? But that's a question for later.
+
