@@ -39,3 +39,9 @@ I solved this by editing the symbol and adding two MP pins and grounding them (f
 <img width="390" height="292" alt="image" src="https://github.com/user-attachments/assets/92896ff6-817b-4366-aae9-7256ec4f46da" />
 
 
+
+
+
+<img width="422" height="128" alt="image" src="https://github.com/user-attachments/assets/6bff6afd-c72f-439e-8307-c2d0a9937925" />
+
+
