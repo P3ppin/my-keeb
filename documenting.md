@@ -21,3 +21,8 @@ Now I've added the keys, I selected everything, and looked at the selected count
 
 
 <img width="948" height="822" alt="image" src="https://github.com/user-attachments/assets/d2d80195-994a-4219-81e7-35be3b3d0f49" />
+
+
+
+I now added the rotary encoder, I don't know if the one included in the grant is with or without the switch, but I added it just in case
+<img width="1250" height="825" alt="image" src="https://github.com/user-attachments/assets/538465b8-9a6b-4166-958d-9fdd43455290" />
