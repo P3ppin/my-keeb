@@ -37,3 +37,5 @@ When I imported all the footprints in the PCB-editor, I got the warnings: _Warni
 
 I solved this by editing the symbol and adding two MP pins and grounding them (for extra safety):
 <img width="390" height="292" alt="image" src="https://github.com/user-attachments/assets/92896ff6-817b-4366-aae9-7256ec4f46da" />
+
+
