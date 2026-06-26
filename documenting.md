@@ -26,3 +26,14 @@ Now I've added the keys, I selected everything, and looked at the selected count
 
 I now added the rotary encoder, I don't know if the one included in the grant is with or without the switch, but I added it just in case
 <img width="1250" height="825" alt="image" src="https://github.com/user-attachments/assets/538465b8-9a6b-4166-958d-9fdd43455290" />
+
+
+I rechecked everything with the amount of keys, and it turns out, I actually need 110 keys for my layout, I had duplicate labels. This shows how important double (double) checking is!
+
+Now I'm all set with the schematic, I can move on to designing the layout/rest of the PCB.
+
+
+When I imported all the footprints in the PCB-editor, I got the warnings: _Warning: No net found for component SW23 pad MP (no pin MP in symbol). Warning: No net found for component SW23 pad MP (no pin MP in symbol)._
+
+I solved this by editing the symbol and adding two MP pins and grounding them (for extra safety):
+<img width="390" height="292" alt="image" src="https://github.com/user-attachments/assets/92896ff6-817b-4366-aae9-7256ec4f46da" />
