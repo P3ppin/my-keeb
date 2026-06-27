@@ -38,8 +38,9 @@ When I imported all the footprints in the PCB-editor, I got the warnings: _Warni
 I solved this by editing the symbol and adding two MP pins and grounding them (for extra safety):
 <img width="390" height="292" alt="image" src="https://github.com/user-attachments/assets/92896ff6-817b-4366-aae9-7256ec4f46da" />
 
-I added all the keys to the right spots. For the placing off the diodes, I found a plug-in that could save a lot of time, so I'm going to test it out now. It's called: kicad-kbplacer (https://github.com/adamws/kicad-kbplacer)
+I added all the keys to the right spots. For the placing of the diodes, I found a plug-in that could save a lot of time, so I'm going to test it out now. It's called: kicad-kbplacer (https://github.com/adamws/kicad-kbplacer)
 
+<img width="1157" height="694" alt="image" src="https://github.com/user-attachments/assets/fd2dcf2f-4750-4e9b-b712-4c9cb203c3f2" />
 
 
 <img width="422" height="128" alt="image" src="https://github.com/user-attachments/assets/6bff6afd-c72f-439e-8307-c2d0a9937925" />
