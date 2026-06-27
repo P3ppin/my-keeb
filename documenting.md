@@ -43,6 +43,20 @@ I added all the keys to the right spots. For the placing of the diodes, I found 
 <img width="1157" height="694" alt="image" src="https://github.com/user-attachments/assets/fd2dcf2f-4750-4e9b-b712-4c9cb203c3f2" />
 
 
+I now added the correct stabiliser footprints for the different sizes of keys.
+
+<img width="1331" height="462" alt="image" src="https://github.com/user-attachments/assets/60a52b4f-20a6-45bc-96f8-64354a65562b" />
+
+
+
+I got this warning after geographically anotating: _PCB successfully reannotated
+Warning: PCB annotation changes should be synchronized with schematic using "Update Schematic from PCB"._
+It means I just have to go into the schematic and press: Update Schematic from PCB. This fixed the issue.
+
+When I wanted to start with the tracing, I found out, that all the keys of collumns were scattered. I looked up how I could save this issue, so I wouldn't have to mess with the traces.
+I tried fixing this by geographically reannotating the switches, and annotating everything in  the schematic vertically.
+
+Well..... that (and all the other things I tried) didn't work. I don't now exactly what I did, but now it's fine. I first cleared all the anotations in the schematic, then I geagraphically reanotated the switches in the PCB editor. Then I went and Updated the schematic from PCB, when working through all the errors, it ultimately worked. Now I can move on with wiring!
 <img width="422" height="128" alt="image" src="https://github.com/user-attachments/assets/6bff6afd-c72f-439e-8307-c2d0a9937925" />
 
 
