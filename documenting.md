@@ -60,3 +60,41 @@ Well..... that (and all the other things I tried) didn't work. I don't now exact
 <img width="422" height="128" alt="image" src="https://github.com/user-attachments/assets/6bff6afd-c72f-439e-8307-c2d0a9937925" />
 
 
+
+Finally after hours of work I'm done drawing all the traces, I prevented using vias the entire time, untill they became nescecary. 
+<img width="1366" height="461" alt="image" src="https://github.com/user-attachments/assets/2a8d492e-097c-4c4c-b9e3-aa63d47fe322" />
+
+
+When I ran the DRC (Design Rule Test), iI got the following errors and warnings:
+
+[items_not_allowed]: Items not allowed (keepout area 'Antenna Copper Keep Out' of A1)
+    Rule: keepout area 'Antenna Copper Keep Out' of A1; error
+    @(50.0063 mm, 57.7454 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+    For the keyboard I don't need the antenna on the Raspberry Pi Pico, if it's even there, so the error doesn't matter.
+    
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(375.8375 mm, 145.2562 mm): Track [/Row 9] on B.Cu, length 1.1906 mm
+
+    This means there are some unconnected trace pieces, that i'll have to delete.
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(50.0063 mm, 57.7454 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+    For this warning I selected in the fill-zone properties to remove all islands.
+    
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(61.9125 mm, 85.7250 mm): Rectangle on Edge.Cuts
+    @(400.2075 mm, 86.3631 mm): Arc of A1 on F.Silkscreen
+
+    This warning can just be ignored, because it only means that the print will be cut off by a bit, but that's nothing functional.
+
+Now only the silkscreen warnings and the antenna error are left, I can move on, and the PCB is done.
+
+<img width="596" height="207" alt="image" src="https://github.com/user-attachments/assets/9c2fdd47-3119-4665-a54b-7ffe2c9dcf2a" />
+
+I put some eastereggs/deco on it so it really feels like mine.
+
+<img width="755" height="265" alt="image" src="https://github.com/user-attachments/assets/1ff38014-0ecb-43a6-b87f-5983edd5b193" />
